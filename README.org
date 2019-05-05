@@ -6,3 +6,6 @@
    explicitly. I hid this hack in the Makefile.
 - This hack will only work if there's only one USB port in use.. need to find a better
   solution.
+*** Dependency
+- This project depends on the steps in https://github.com/rubberduck203/embedded-101.  I
+  set up my environment using the Mac homebrew installation steps.
