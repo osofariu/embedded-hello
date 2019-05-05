@@ -1,0 +1,8 @@
+* Arduino playground
+** Hello World
+*** Port
+ - On my Mac, _avrdude_ cannot determine the port to connect to.. it just shows up as
+   "unknown". One hack I found is looking it up under /dev/tty.usb* and passing it in
+   explicitly. I hid this hack in the Makefile.
+- This hack will only work if there's only one USB port in use.. need to find a better
+  solution.
